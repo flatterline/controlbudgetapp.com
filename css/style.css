@@ -1,0 +1,55 @@
+body {
+    background: #000;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+a:link, a:visited, a:hover {
+    color: #EEE;
+}
+
+div.download-buttons {
+    margin-top: 2.5em;
+}
+
+div.reflection {
+/*    background: url('../img/reflection.png') repeat-x bottom;
+*/}
+
+div.secondary {
+    margin-top: 2.5em;
+}
+
+div.main {
+    padding-top: 140px;
+}
+
+div.main > p {
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Helvetica, sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-weight: normal;
+}
+
+hr {
+    border-top: 1px solid #222;
+    border-bottom: none;
+}
+
+img.logo {
+    display: block;
+    margin-bottom: 2.5em;
+}
+
+img.phone {
+    margin: 15px 0 0 105px;
+}
