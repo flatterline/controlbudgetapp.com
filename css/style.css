@@ -1,7 +1,6 @@
 body {
-    background: #000;
+    background: #222;
     margin-bottom: 40px;
-    margin-top: 80px;
 }
 
 a:link, a:visited, a:hover {
@@ -12,20 +11,14 @@ div.download-buttons {
     margin-top: 2.5em;
 }
 
-div.reflection {
-/*    background: url('../img/reflection.png') repeat-x bottom;
-*/}
-
 div.secondary {
     margin-top: 2.5em;
 }
 
 div.main {
-    padding-top: 140px;
-}
-
-div.main > p {
+    clear:both;
     color: #fff;
+    float: left;
     font-family: Helvetica, sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -47,9 +40,11 @@ hr {
 
 img.logo {
     display: block;
-    margin-bottom: 2.5em;
+    margin: 2.5em;
 }
 
 img.phone {
-    margin: 15px 0 0 105px;
+    margin: 50px 0;
+    max-width: 380px;
+    width:100%;
 }
