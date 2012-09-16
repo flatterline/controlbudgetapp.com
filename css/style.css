@@ -2,11 +2,11 @@ body {
     background:url(../img/brillant.png)repeat;
     color:#fff;
     font-family:helvetica,sans-serif;
-    margin:-.5em 0 40px 0;
+    margin:-.5em 0 0 0;
 }
 
 a:link, a:visited, a:hover {
-    color: #EEE;
+    color: #222;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2 {
 
 p {
     color:#000;
-    font-size:1.1em;
+    font-size:1.3em;
     font-weight:normal;
 }
 
@@ -38,22 +38,27 @@ p {
     margin:1em 0;
 }
 
-.main {
-    margin:5em 0;
+.tagline {
+    display:inline;
+    margin:2em 0;
 }
 
-.tagline {
-    margin:1em 0;
+.main {
+    margin:2em 0 0 0;
 }
 
 .content {
-    margin:2em;
+    display:inline;
+    margin:1.5em;
     padding:0 0 0 2em;
 }
 
-
-.logo {
-    padding:0 0 0 2em;
+.info {
+    background-color:rgba(255,255,255,0.3);
+    height:3em;
+    padding:3em;
+    margin-bottom:0;
+    width:100%;
 }
 
 ul {
@@ -62,5 +67,5 @@ ul {
 }
 
 .footer {
-    margin:3em 0;
+    margin:3em 0 0 0;
 }
