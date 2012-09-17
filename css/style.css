@@ -5,6 +5,11 @@ body {
     margin:-.5em 0 0 0;
 }
 
+.topbar {
+    min-width:960px;
+    width:100%;
+}
+
 a:link, a:visited, a:hover {
     color: #fff;
     text-decoration:none;
@@ -25,48 +30,33 @@ h2 {
 
 h3 {
     color:#111;
-    font-size:1.3em;
+    font-size:1.4em;
     font-weight:normal;
+    line-height:1em;
+    padding-top:1em;
     text-align:justify;
 }
 
 p {
     color:#000;
-    font-size:1.3em;
+    font-size:1.1em;
     font-weight:normal;
     line-height:1.2em;
     text-align:justify;
-}
-
-.topbar img {
-    margin-top:0;
-    padding:0;
-    width:100%;
 }
 
 .call img {
     margin:2em 0;
 }
 
-.tagline {
-    display:inline;
-    margin:2em 0 0 1em;
-}
-
-.main {
-    background-color: rgba(255,255,255,0.6);
-    padding:3em 2em;
-    margin-top:-.5em;
-}
-
 .content {
     display:inline;
-    margin:3em 1.5em;
+    margin:2em 1.5em;
     padding:0 0 0 2em;
 }
 
-.phone {
-    padding:1em 0;
+.footer {
+   padding-top:1em;
 }
 
 .info {
@@ -75,6 +65,17 @@ p {
     text-variant:small-caps;
 }
 
-.footer {
-   padding-top:1em;
+.main {
+    background-color: rgba(255,255,255,0.6);
+    padding:3em 2em;
+    margin-top:-.5em;
+}
+
+.phone {
+    padding:1em 0;
+}
+
+.tagline {
+    display:inline;
+    margin:2em 0 0 1em;
 }
