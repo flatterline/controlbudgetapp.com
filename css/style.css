@@ -17,19 +17,13 @@ a:link, a:visited, a:hover {
 
 h1 {
     color:#111;
-    font-size: 3em;
-    font-weight:normal;
-}
-
-h2 {
-    color:#111;
     display:inline;
     font-size: 2.3em;
     font-weight:normal;
     line-height:1.5em;
 }
 
-h3 {
+h2 {
     color:#111;
     font-size:1.3em;
     font-weight:normal;
