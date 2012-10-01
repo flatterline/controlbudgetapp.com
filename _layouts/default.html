@@ -3,75 +3,64 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-     <title>Control Budget App - The simplest iOS solution for managing a spending budget.</title>
-    <meta name="description" content="Control Budget App is the only iOS budgeting app that will keep your spending in check without getting in your way.">
-    <meta name="author" content="Flatterline LLC">
+    <meta name="description" content="Control Budget App keeps your spending in check without getting in your way.">
+    <meta name="author"      content="Flatterline LLC">
+
+   <title>Control Budget App - The simplest iOS solution for managing a spending budget.</title>
+
     <!-- styles -->
     <link href="../css/bootstrap.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
     <!-- fav and touch icons -->
     <link rel="shortcut icon" href="../ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../ico/apple-touch-icon-57-precomposed.png">
-<script type="text/javascript">
+  </head>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-23200193-5']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</head>
-<body>
+  <body>
     <img alt="graphic design" src="../img/steps-line.png" class="topbar" />
-  <div class="container">
+
+    <div class="container">
       <div class="container">
         <div class="row main">
-          <div class="span4 phone">
-            <img alt="Display of Control Budget App instructions on iPhone" src="../img/iphone-instructions.png" />
+          {{ content }}
+        </div> <!-- /main -->
+      </div> <!-- container for content -->
+
+      <div class="container">
+        <div class="row info">
+          <div class="span4 offset1 footer">
+            &copy; 2012 <a href="http://flatterline.com">Flatterline LLC</a>
           </div>
-  <div class="span6 content">
-    <div class="row">
-      <div class="span2">
-        <img alt="Control Budget App icon" src="../img/logo.png" title="Control Budget App" />
-      </div>
-        <div class="span4 tagline">
-          <h1>Take <span style="font-weight:bold">control</span> of your spending today.</h1>
+
+          <div class="span3 offset3">
+            <a href="https://twitter.com/intent/tweet?screen_name=ControlApp&amp;text=Support%20request%3A" class="twitter-mention-button" data-size="large" data-related="ControlApp">
+              <img alt="Twitter icon and link to @controlapp." src="../img/twitterbird.png" width="40px" />get supported @controlapp
+            </a>
+          </div>
         </div>
-    </div>
-  <h2>Control App is the simplest budgeting tool since cash.</h2>
-    <hr>
-      <p>Designed from day one for the iPhone with simplicity at the core, its intuitive interface means you already know how to use it. Control App is the only iOS budgeting app that will keep your spending in check without getting in your way.</p>
-      <p>We are obsessed with making tools for users that do exactly what you expect them to do with as few steps as possible. In this case we believe controlling your spending doesn't need to control your life.</p>
-      <p>Visit the App Store and take <span style="font-weight:bold">control</span> of your spending today.</p>    
-    <div class="call">
-      <a href="http://itunes.apple.com/us/app/control-budget/id563639160"><img src="../img/download.png" alt="Download Control App on iTunes Store" width="250px" alt="Launch the iTunes store listing for Control Budget App" title="Control on iTunes App Store" /></a>
-    </div>
-  </div>
-          </div> <!-- /main -->
-        </div> <!-- container for content --> 
-<div class="container">
-  <div class="row info">
-    <div class="span4 offset1 footer">
-        &copy; 2012 <a href="http://flatterline.com">Flatterline LLC</a>
-    </div>
-    <div class="span3 offset3">
-      <a href="https://twitter.com/intent/tweet?screen_name=ControlApp&text=Support%20request%3A" class="twitter-mention-button" data-size="large" data-related="ControlApp"><img alt="Twitter icon and link to @controlapp." src="../img/twitterbird.png" width="40px" />get supported @controlapp</a>
-    </div>
-  </div>
-</div> <!-- /footer --> 
-  </div> <!-- /container for page -->
-</body>
+      </div> <!-- /footer -->
+    </div> <!-- /container for page -->
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23200193-5']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
 </html>
